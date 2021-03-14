@@ -1,2 +1,2 @@
-# simple-shopping-list
-A simple shopping list, made in JavaScript.
+# simple-javascript-programs
+Simple programs I made using Javascript.
