@@ -1,2 +1,2 @@
-# simple-javascript-programs
+# Simple Javascript programs.
 Simple programs I made using Javascript.
