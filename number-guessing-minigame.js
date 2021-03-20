@@ -2,7 +2,7 @@
 Only lets !string input. */
 let maximum = parseInt(prompt("Enter the maximum number!"));
 
-//As long as the user inputs a string, the prompt will apear.
+// As long as the user inputs a string, the prompt will apear.
 while (!maximum) {
     maximum = parseInt(prompt("Enter a valid number!"));
 }
@@ -21,7 +21,7 @@ console.log(targetNum);
 Also check if the input is number. */
 let guess = parseInt(prompt("Enter your first guess!"));
 
-//As long as the user inputs a string, the prompt will apear.
+// As long as the user inputs a string, the prompt will apear.
 while (!guess) {
     guess = parseInt(prompt("Enter a valid number!"));
 }
