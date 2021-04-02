@@ -19,9 +19,9 @@ var fiat = {
 
     drive: function () {
         if (started) {
-            console.log("Zoom zoom!")
+            console.log("Zoom zoom!");
         } else {
-            console.log("You need to start the engine!")
+            console.log("You need to start the engine!");
         }
     }
 
