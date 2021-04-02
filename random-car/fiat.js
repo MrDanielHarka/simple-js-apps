@@ -1,5 +1,5 @@
 
-var fiat = {
+const fiat = {
     make: "Fiat",
     model: "500",
     year: 1957,
