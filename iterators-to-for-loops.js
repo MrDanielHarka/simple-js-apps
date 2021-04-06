@@ -39,7 +39,7 @@ console.log(onlyNumbers);
 const numsArr = [];
 
 for (i = 0; i < things.length; i++) {
-      if (things[i] === 'number') {
+      if (typeof things[i] === 'number') {
        numsArr.push(things[i])
       }
     }
