@@ -1,4 +1,3 @@
-
 const fiat = {
     make: "Fiat",
     model: "500",
@@ -10,15 +9,15 @@ const fiat = {
     started: false,
 
     start: function () {
-        started = true;
+        this.started = true;
     },
 
     stop: function () {
-        started = false;
+        this.started = false;
     },
 
     drive: function () {
-        if (started) {
+        if (this.started) {
             console.log("Zoom zoom!");
         } else {
             console.log("You need to start the engine!");
@@ -26,3 +25,13 @@ const fiat = {
     }
 
 };
+
+fiat.start();
+fiat.drive();
+fiat.stop();
+fiat.drive();
+fiat.drive();
+fiat.start();
+fiat.drive();/*  */
+
+
