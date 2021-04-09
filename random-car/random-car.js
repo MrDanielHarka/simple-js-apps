@@ -20,7 +20,7 @@ function makeCar() {
         mileage: 0,
         drive: function () {
             alert.log('Zoom zoom!');
-        }
+        }/*  */
     };
 
     return car;
