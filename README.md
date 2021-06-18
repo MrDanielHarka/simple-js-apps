@@ -1,2 +1,2 @@
-# Simple Javascript programs.
-Simple programs I made using JavaScript.
+# Simple Javascript apps.
+Simple apps made with JavaScript.
